@@ -1,3 +1,26 @@
 .hidden{
     display: none;
 }
+*{
+    margin: 0;
+    text-align: center;
+}
+.mamt{
+    font-size: 20vw;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: mamt;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+}
+@keyframes mamt {
+    from {
+        color: red;
+    }
+  
+    to {
+        color: green;
+    }
+  }
+
+  
